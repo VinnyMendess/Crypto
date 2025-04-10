@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.: The Crypto App:.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Busca e Alarme -->
+     <div class="container">
+        <div class="row mt-2">
+            <div class="col-12 text-end">
+                <i class="fa-solid fa-magnifying-glass fa-2x mx-2"></i>
+                <i class="fa-regular fa-bell fa-2x mx-1"></i>
+            </div>
+        </div>
+
+     </div>
+    <!-- Saldo -->
+     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div id="balance">
+                    <img id="btc1" src="img/btc 1.png" alt="">
+                    <p>Seu Saldo</p>
+                    <img id="btc2" src="img/btc 2.png" alt="">
+                    <h2>$ 15.830,00</h2>
+                    
+                    <p class="mt-5"><i class="fa-solid fa-arrow-trend-up"></i> $ 1.830,00 de lucro </p>
+                    
+                    
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Top Moedas -->
+     <div class="container mt-3">
+        <div class="row">
+            <div class="col-8">
+                <h4>Top Ativos</h4>
+                
+            </div>
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+            <div class="moeda">
+                <i class="fa-brands fa-bitcoin fa-2x"></i><span class="tituloMoeda">Bitcoin</span>
+                <h4 class="valor">$ 45.89,16</h4>
+                <p class="lucratividade">24,55% <i class="fa-solid fa-caret-up"></i></p>
+                <img src="img/Chart line.png" alt="" width="100%">
+
+            </div>
+        </div>
+        
+            <div class="col-6">
+            <div class="moeda">
+                <i class="fa-brands fa-ethereum fa-2x"></i><span class="tituloMoeda">Etherum</span>
+                <h4 class="valor">$ 5,898,16</h4>
+                <p class="lucratividade">2,55% <i class="fa-solid fa-caret-up"></i></p>
+                <img src="img/Chart line.png" alt="" width="100%">
+                
+            </div>
+        </div>
+    </div>
+     </div>
+    <!-- Notícias -->
+     <div class="container mt-3 mb-3">
+        <div class="row">
+            <div class="col-8">
+                <h4>Notícias</h4>
+            </div>
+            <div class="col-4 text-end">
+                <p class="legenda">Veja tudo</p>
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="img/Mask group.png" alt="">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Ações da tesla disparam em 432% e a tesla acaba de virar a empresa mais valiosa no mundo</p>
+
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="img/Mask group.png" alt="">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Ações da tesla disparam em 432% e a tesla acaba de virar a empresa mais valiosa no mundo</p>
+
+            </div>
+        </div>
+        <div class="row noticia">
+            <div class="col-3">
+                <img src="img/Mask group.png" alt="">
+            </div>
+            <div class="col-9">
+                <p class="textoNoticia">Ações da tesla disparam em 432% e a tesla acaba de virar a empresa mais valiosa no mundo</p>
+
+            </div>
+        </div>
+
+     </div>
+    <!-- Rodape com Menu de Opções-->
+     <div class="container-fluid" id="footer">
+        <div class="row pt-3">
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                <i class="fa-solid fa-house icone itemMenu"></i>
+                <p class="menu">Home</p>
+            </div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                <i class="fa-solid fa-chart-simple icone itemMenu"></i>
+                <p class="menu">Market</p>
+            </div>
+            </div>
+            <div class="col-4 text-center">
+                <div id="plus">+</div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                <i class="fa-solid fa-chart-pie icone itemMenu"></i>
+                <p class="menu">Portifolio</p>
+            </div>
+            </div>
+            <div class="col-2 text-center">
+                <div class="itemMenu">
+                <i class="fa-solid fa-gear icone itemMenu"></i>
+                <p class="menu">Settings</p>
+            </div>
+            </div>
+        </div>
+    
+     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    
+</body>
+</html>
